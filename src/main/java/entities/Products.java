@@ -40,4 +40,8 @@ public class Products {
         this.quantity = quantity;
     }
 
+    public double totalprice(){
+        return quantity * price;
+    }
+
 }
